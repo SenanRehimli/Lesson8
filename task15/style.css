@@ -1,0 +1,46 @@
+.container{
+    display: flex;
+    width: 250px;
+    height: 100px;
+    background-color: blueviolet;
+    position: relative;
+}
+.container div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    color: aliceblue;
+    font-weight: 900;
+    font-size: 24px;
+    position: absolute;
+}
+#h{
+    background-color: orange;
+    left: 0;
+}
+#g{
+    background-color: red;
+    left: 50px;
+}
+#i{
+    background-color: aqua;
+    left: 100px;
+}
+#p{
+    background-color: dodgerblue;
+    left: 150px;
+}
+#l{
+    background-color: pink;
+    left: 200px;
+}
+#h:hover{
+    background-color: orange;
+    transform: translateY(20px);
+    -webkit-transform: translateY(20px);
+    -moz-transform: translateY(20px);
+    -ms-transform: translateY(20px);
+    -o-transform: translateY(20px);
+}

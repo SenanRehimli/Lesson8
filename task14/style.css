@@ -1,0 +1,60 @@
+header{
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    margin: auto;
+    margin-top: 50px;
+}
+header div{
+    width: 20px;
+    height: 100px;
+    background-color: aquamarine;
+    animation-name: first;
+    animation-duration: 1500ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: calc(0.2s * var(--i));
+}
+footer{
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    margin: auto;
+    margin-top: 30px;
+}
+footer div{
+    width: 20px;
+    height: 100px;
+    background-color: blue;
+    animation-name: second;
+    animation-duration: 1500ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: calc(0.2s * var(--i));
+}
+@keyframes first {
+    0%{
+        height: 50px;
+    }
+    50%{
+        height: 150px;
+    }
+    100%{
+        height: 50px;
+    }
+}
+@keyframes second {
+    0%{
+        height: 150px;
+    }
+    50%{
+        height: 50px;
+    }
+    100%{
+        height: 150px;
+    }
+}

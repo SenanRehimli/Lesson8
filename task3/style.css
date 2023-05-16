@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    margin-left: 5px;
+}
+#red{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin-bottom: 20px;
+}
+#blue{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+main{
+    width: 500px;
+    height: 220px;
+}
+main:hover #red{
+    width: 50%;
+}
+main:hover #blue{
+    width: 50%;
+}
+#red{
+    transition: width 1s ease-in-out;
+    -webkit-transition: width 1s ;
+    -moz-transition: width 1s ;
+    -ms-transition: width 1s ;
+    -o-transition: width 1s ;
+}
+#blue{
+    transition: width 800ms 1150ms ease-in-out;
+    -webkit-transition: width 800ms 1150ms ease-in-out;
+    -moz-transition: width 800ms 1150ms ease-in-out;
+    -ms-transition: width 800ms 1150ms ease-in-out;
+    -o-transition: width 800ms 1150ms ease-in-out;
+}

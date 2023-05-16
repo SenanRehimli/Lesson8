@@ -1,0 +1,134 @@
+main{
+    display: flex;
+    gap: 10px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1, h3 {
+    color: green;
+    margin-bottom: 50px;
+}
+div{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+}
+#first{
+    animation-name: first;
+    animation-duration: 2500ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(.47,.46,0,.73);
+}
+@keyframes first {
+    0%{
+        background-color: blue;
+    }
+    25%{
+        /* transform: rotate(90deg); */
+        background-color: rgb(100, 100, 180);
+        /* -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg); */
+    }
+    50%{
+        background-color: dodgerblue;
+        transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        -o-transform: rotate(180deg);
+    }
+    75%{
+        background-color: rgb(100, 100, 180);
+    }
+    100%{
+        background-color: blue;
+        transform: rotate(-90deg);
+        -webkit-transform: rotate(-90deg);
+        -moz-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+        -o-transform: rotate(-90deg);
+}
+}
+#orta{
+    animation-name: orta;
+    animation-duration: 2500ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(.47,.46,0,.73);
+    animation-delay:150ms
+}
+@keyframes orta {
+    0%{
+        background-color: blue;
+    }
+    25%{
+        /* transform: rotate(90deg); */
+        background-color: rgb(100, 100, 180);
+        /* -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg); */
+    }
+    50%{
+        background-color: dodgerblue;
+        transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        -o-transform: rotate(180deg);
+    }
+    75%{
+        background-color: rgb(100, 100, 180);
+    }
+    100%{
+        background-color: blue;
+        transform: rotate(-90deg);
+        -webkit-transform: rotate(-90deg);
+        -moz-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+        -o-transform: rotate(-90deg);
+}
+}
+#last{
+    animation-name: last;
+    animation-duration: 2500ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(.47,.46,0,.73);
+    animation-delay:300ms;
+}
+@keyframes last {
+    0%{
+        background-color: blue;
+    }
+    25%{
+        /* transform: rotate(90deg); */
+        background-color: rgb(100, 100, 180);
+        /* -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg); */
+    }
+    50%{
+        background-color: dodgerblue;
+        transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        -o-transform: rotate(180deg);
+    }
+    75%{
+        background-color: rgb(100, 100, 180);
+    }
+    100%{
+        background-color: blue;
+        transform: rotate(-90deg);
+        -webkit-transform: rotate(-90deg);
+        -moz-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+        -o-transform: rotate(-90deg);
+}
+}

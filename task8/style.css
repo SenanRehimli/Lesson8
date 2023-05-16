@@ -1,0 +1,33 @@
+div{
+    width: 70%;
+    height: 70vh;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(46, 46, 180);
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+    transition: border-radius 1s ease;
+    -webkit-transition: border-radius 1s ease;
+    -moz-transition: border-radius 1s ease;
+    -ms-transition: border-radius 1s ease;
+    -o-transition: border-radius 1s ease;
+}
+p{
+    width:90%;
+}
+div:hover{
+    cursor: pointer;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    background-color: rgb(134, 134, 204);
+    color: black;
+}

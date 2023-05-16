@@ -1,0 +1,42 @@
+h1{
+    color: green;
+}
+div{
+    width: 150px;
+    height: 50px;
+    border: 2px solid black;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    margin-left: 30px;
+    transform: skew(-10deg);
+    -webkit-transform: skew(-15deg);
+    -moz-transform: skew(-10deg);
+    -ms-transform: skew(-10deg);
+    -o-transform: skew(-10deg);
+}
+div:hover{
+    cursor: pointer;
+    color: green;
+    border: 2px solid green;
+    animation-name: geeks;
+    animation-duration: 170ms;
+    animation-iteration-count: 2;
+}
+@keyframes geeks {
+    from{
+        transform: skew(-15deg);
+        -webkit-transform: skew(-15deg);
+        -moz-transform: skew(-15deg);
+        -ms-transform: skew(-15deg);
+        -o-transform: skew(-15deg);
+}
+    to{
+        transform: skew(0);
+        -webkit-transform: skew(0);
+        -moz-transform: skew(0);
+        -ms-transform: skew(0);
+        -o-transform: skew(0);
+}
+}

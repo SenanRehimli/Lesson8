@@ -1,0 +1,65 @@
+h1{
+    color: green;
+}
+ul{
+    list-style: none;
+}
+#s1{
+    animation-name: s1;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes s1 {
+    to{
+        font-size: 35px;
+        color: green;
+    }
+}
+#s2{
+    animation-name: s2;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 500ms;
+}
+@keyframes s2 {
+    to{
+        font-size: 35px;
+        color: green;
+    }
+}
+#s3{
+    animation-name: s3;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 1000ms;
+}
+@keyframes s3 {
+    to{
+        font-size: 35px;
+        color: green;
+    }
+}
+#s4{
+    animation-name: s4;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 1500ms;
+}
+@keyframes s4 {
+    to{
+        font-size: 35px;
+        color: green;
+    }
+}
+#s5{
+    animation-name: s5;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 2000ms;
+}
+@keyframes s5 {
+    to{
+        font-size: 35px;
+        color: green;
+    }
+}

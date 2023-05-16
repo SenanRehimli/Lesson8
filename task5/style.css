@@ -1,0 +1,66 @@
+#basliq{
+    margin-left: 40%;
+}
+#basliq h1{
+    color: green;
+    font-size: 40px;
+}
+#normal{
+    animation-name: normal;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+@keyframes normal {
+    from{
+        margin-left: 500px;
+    }
+    to{
+        margin-left: 0px;
+    }
+}
+#reverse{
+    animation-name: reverse;
+    animation-iteration-count:infinite;
+    animation-duration: 2s;
+}
+@keyframes reverse {
+    from{
+        margin-left: 0;
+    }
+    to{
+        margin-left: 500px;
+    }
+    
+}
+#alternate{
+    animation-name: alternate;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+}
+@keyframes alternate {
+    0%{
+        margin-left: 0;
+    }
+    50%{
+        margin-left: 500px;
+    }
+    100%{
+        margin-left: 0;
+    }
+}
+#alternate-reverse{
+    animation-name: alternate-reverse;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+}
+@keyframes alternate-reverse {
+    0%{
+        margin-left: 500px;
+    }
+    50%{
+        margin-left: 0;
+    }
+    100%{
+        margin-left: 500px;
+    }
+}

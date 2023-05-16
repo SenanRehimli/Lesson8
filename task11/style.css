@@ -1,0 +1,69 @@
+main{
+    width:300px;
+    height: 300px;
+    background-color: pink;
+    position: relative;
+}
+div{
+    width: 50px;
+    height: 50px;
+    background-color: blueviolet;
+    position: absolute;
+    animation-name: div;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes div {
+    0%{
+        top: 20px;
+        left: 20px;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        background-color: blueviolet;
+    }
+    25%{
+        top: 20px;
+        left: 230px;
+        border-radius: 0;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        -ms-border-radius: 0;
+        -o-border-radius: 0;
+        background-color: red;
+        
+}
+    50%{
+        top: 230px;
+        left: 230px;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        background-color: green;
+    }
+    75%{
+        top: 230px;
+        left: 20px;
+        border-radius: 0;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        -ms-border-radius: 0;
+        -o-border-radius: 0;
+        background-color: darkorange;
+    }
+    100%{
+        top: 20px;
+        left: 20px;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        background-color: blueviolet;
+    }
+    
+}
